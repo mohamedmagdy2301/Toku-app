@@ -1,4 +1,4 @@
-// import 'package:project/model/item_model.dart';
+// import 'package:Toku/model/item_model.dart';
 
 // final List<dynamic> colors = [
 //   {"textEN": "Red", "textJP": "Aka", "imageURL": "assets/mego.jpg"},
@@ -59,8 +59,8 @@
 //   {"textEN": "husband", "textJP": "Aka", "imageURL": "assets/mego.jpg"},
 // ];
 
-import 'package:project/model/Item_phreses_model.dart';
-import 'package:project/model/item_model.dart';
+import 'package:Toku/model/Item_phreses_model.dart';
+import 'package:Toku/model/item_model.dart';
 
 const List<ItemModel> familyMembersList = [
   ItemModel(

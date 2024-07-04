@@ -1,8 +1,8 @@
 // ignore_for_file: camel_case_types
 
 import 'package:flutter/material.dart';
-import 'package:project/Lists.dart';
-import 'package:project/widget/row_build.dart';
+import 'package:Toku/Lists.dart';
+import 'package:Toku/widget/row_build.dart';
 
 class ColorPage extends StatelessWidget {
   const ColorPage({super.key, required this.colorRow});

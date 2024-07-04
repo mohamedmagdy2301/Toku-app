@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:project/view/color_page.dart';
-import 'package:project/view/family_member_page.dart';
-import 'package:project/view/number_page.dart';
-import 'package:project/view/phrases_page.dart';
+import 'package:Toku/view/color_page.dart';
+import 'package:Toku/view/family_member_page.dart';
+import 'package:Toku/view/number_page.dart';
+import 'package:Toku/view/phrases_page.dart';
 
 import 'widget/row_filed_build.dart';
 
