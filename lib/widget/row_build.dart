@@ -1,5 +1,6 @@
 // ignore_for_file: camel_case_types
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 class rowBuild extends StatelessWidget {
@@ -9,12 +10,15 @@ class rowBuild extends StatelessWidget {
     required this.textJP,
     required this.imageURL,
     required this.colorRow,
+    required this.soundUrl,
   });
-  final String textEN, textJP, imageURL;
+  final String textEN, textJP, imageURL, soundUrl;
   final Color colorRow;
 
   @override
   Widget build(BuildContext context) {
+    final AudioPlayer audioPlayer = AudioPlayer();
+
     return Container(
       height: 65,
       color: colorRow,
@@ -54,12 +58,17 @@ class rowBuild extends StatelessWidget {
             ),
           ),
           const Spacer(flex: 1),
-          const Padding(
-            padding: EdgeInsets.only(right: 14),
-            child: Icon(
-              Icons.play_arrow,
-              color: Colors.white,
-              size: 30,
+          Padding(
+            padding: const EdgeInsets.only(right: 14),
+            child: GestureDetector(
+              onTap: () async {
+                await audioPlayer.play(AssetSource(soundUrl));
+              },
+              child: const Icon(
+                Icons.play_arrow,
+                color: Colors.white,
+                size: 30,
+              ),
             ),
           )
         ],

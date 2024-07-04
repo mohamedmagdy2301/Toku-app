@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: ' Tune App',
+      title: ' Toku App',
       home: HomePage(),
     );
   }

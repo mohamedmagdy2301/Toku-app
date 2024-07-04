@@ -24,12 +24,13 @@ class FamilyMemberPage extends StatelessWidget {
           ),
         ),
         body: ListView.builder(
-          itemCount: familyMembers.length,
+          itemCount: familyMembersList.length,
           itemBuilder: (context, index) {
             return rowBuild(
-              textEN: familyMembers[index]['textEN'],
-              textJP: familyMembers[index]['textJP'],
-              imageURL: familyMembers[index]['imageURL'],
+              textEN: familyMembersList[index].enName,
+              textJP: familyMembersList[index].jpName,
+              imageURL: familyMembersList[index].image,
+              soundUrl: familyMembersList[index].sound,
               colorRow: colorRow,
             );
           },

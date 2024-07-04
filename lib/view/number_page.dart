@@ -5,7 +5,7 @@ import 'package:project/Lists.dart';
 import 'package:project/widget/row_build.dart';
 
 class NumberPage extends StatelessWidget {
-  NumberPage({super.key, required this.colorRow});
+  const NumberPage({super.key, required this.colorRow});
   final Color colorRow;
 
   @override
@@ -24,12 +24,13 @@ class NumberPage extends StatelessWidget {
           ),
         ),
         body: ListView.builder(
-          itemCount: numbers.length,
+          itemCount: numbersList.length,
           itemBuilder: (context, index) {
             return rowBuild(
-              textEN: numbers[index]['textEN'],
-              textJP: numbers[index]['textJP'],
-              imageURL: numbers[index]['imageURL'],
+              textEN: numbersList[index].enName,
+              textJP: numbersList[index].jpName,
+              imageURL: numbersList[index].image,
+              soundUrl: numbersList[index].sound,
               colorRow: colorRow,
             );
           },

@@ -24,12 +24,13 @@ class PhrasesPage extends StatelessWidget {
           ),
         ),
         body: ListView.builder(
-          itemCount: phrases.length,
+          itemCount: phrasesList.length,
           itemBuilder: (context, index) {
             return rowBuild(
-              textEN: phrases[index]['textEN'],
-              textJP: phrases[index]['textJP'],
-              imageURL: phrases[index]['imageURL'],
+              imageURL: 'assets/mego.jpg',
+              textEN: phrasesList[index].enName,
+              textJP: phrasesList[index].jpName,
+              soundUrl: phrasesList[index].sound,
               colorRow: colorRow,
             );
           },
