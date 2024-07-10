@@ -22,7 +22,7 @@ class rowFiledBuild extends StatelessWidget {
         alignment: AlignmentDirectional.centerStart,
         color: colorRow,
         width: double.infinity,
-        height: 70,
+        height: 100,
         child: Text(
           nameRow,
           style: const TextStyle(

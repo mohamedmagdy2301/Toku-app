@@ -25,7 +25,8 @@ class rowBuild extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            color: Colors.white,
+            color: const Color.fromARGB(255, 239, 222, 199),
+
             child: Center(
               child: Image.asset(
                 imageURL,
@@ -40,6 +41,7 @@ class rowBuild extends StatelessWidget {
               children: [
                 Text(
                   textEN,
+                  overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
                     fontSize: 19,
                     fontWeight: FontWeight.w600,
@@ -48,6 +50,7 @@ class rowBuild extends StatelessWidget {
                 ),
                 Text(
                   textJP,
+                  overflow: TextOverflow.visible,
                   style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,

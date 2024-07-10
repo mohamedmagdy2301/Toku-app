@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 234, 233, 227),
+      backgroundColor: const Color.fromARGB(255, 243, 243, 243),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 53, 37, 31),
         title: const Text(
@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => NumberPage(
+                  builder: (context) => const NumberPage(
                     colorRow: Colors.orange,
                   ),
                 ),
@@ -47,7 +47,7 @@ class HomePage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => FamilyMemberPage(
+                  builder: (context) => const FamilyMemberPage(
                     colorRow: Colors.green,
                   ),
                 ),

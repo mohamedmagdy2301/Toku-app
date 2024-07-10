@@ -143,7 +143,7 @@ const List<PhraseModel> phrasesList = [
   ),
   PhraseModel(
     sound: 'sounds/phrases/i_love_programming.wav',
-    jpName: 'Watashi wa programming ni',
+    jpName: 'Watashi wa pro. ni',
     enName: 'i love programming',
   ),
   PhraseModel(
