@@ -6,7 +6,7 @@ Welcome to Toku App! This application is designed to help children learn Japanes
 - **Interactive Lessons**: Engaging lessons specifically tailored for children to learn basic Japanese.  
 - **vocabulary in colors**: phrases, numbers, and family members.
 - **Audio Pronunciations**: Clear audio pronunciations by native speakers to help with correct pronunciation.
-**Visual Aids**: Colorful images and animations to make learning more appealing to children.
+- **Visual Aids**: Colorful images and animations to make learning more appealing to children.
 
 ## Screenshots
 
@@ -20,16 +20,18 @@ Welcome to Toku App! This application is designed to help children learn Japanes
 
 ### How to Use
 
-**Numbers**: Learn how to count in Japanese. Engage with interactive counting games and quizzes to reinforce learning.
-**Family Members**: Learn the Japanese words for family members. Use visual aids to match words with images and practice pronunciation.
-**Colors**: Learn the names of different colors in Japanese. Interactive lessons will include visual aids and pronunciation guides.
-**Phrases**: Learn basic phrases used in everyday conversations. Repeat after native speakers and practice through fun activities.
+- **Numbers**: Learn how to count in Japanese. Engage with interactive counting games and quizzes to reinforce learning.
+
+- **Family Members**: Learn the Japanese words for family members. Use visual aids to match words with images and practice pronunciation.
+
+- **Colors**: Learn the names of different colors in Japanese. Interactive lessons will include visual aids and pronunciation guides.
+
+- **Phrases**: Learn basic phrases used in everyday conversations. Repeat after native speakers and practice through fun activities.
 
 
 ### Prerequisites
 
 Make sure you have Flutter installed. If not, you can [install Flutter](https://flutter.dev/docs/get-started/install) from the official website.
-
 
 ### Installation
 
