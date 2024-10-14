@@ -35,11 +35,11 @@ Welcome to Toku App! This application is designed to help children learn Japanes
 - **Phrases**: Learn basic phrases used in everyday conversations. Repeat after native speakers and practice through fun activities.
 
 
-### Prerequisites
+## Prerequisites
 
 Make sure you have Flutter installed. If not, you can [install Flutter](https://flutter.dev/docs/get-started/install) from the official website.
 
-### Installation
+## Installation
 
 1. Clone the repository from GitHub:
 (`git clone https://github.com/mohamedmagdy2301/Toku-app.git`)
@@ -51,25 +51,47 @@ Make sure you have Flutter installed. If not, you can [install Flutter](https://
  (`flutter pub get`)
 
 
-### Usage
+## Usage
 
 1. Connect your mobile device or start an emulator.
 2. Run the application: (`flutter run`).
 3. Use the app to add points to each team as needed during a basketball game.
 
 
-### How to Contribute
+## Contributing
 
-Contributions are welcome! Here's how you can contribute to this project:
+Contributions are highly encouraged! If you would like to contribute to  `Toku App`, please follow these steps:
 
-1. Fork the project repository.
-2. Create a new branch (`git checkout -b feature/new-feature`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/new-feature`).
-6. Create a new Pull Request.
+1. **Fork the Repository**.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your message"
+   ```
+4. **Push to the Branch**:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Open a Pull Request**.
 
+## Congratulations
+
+You’ve successfully integrated `Toku App` into your Flutter app! For more advanced features and customization options.
+
+If you found this guide helpful, don’t forget to ⭐ star this repository on GitHub to show your support!
+
+Thank you for reading!
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-If you have any questions or suggestions about this project, feel free to contact me at mohammedmego15@gmail.com.
+For any questions or inquiries, feel free to reach out:
+
+- **GitHub:** [mohamedmagdy2301](https://github.com/mohamedmagdy2301)
+- **Email:** [mohammedmego15@gmail.com](mohammedmego15@gmail.com)
+
